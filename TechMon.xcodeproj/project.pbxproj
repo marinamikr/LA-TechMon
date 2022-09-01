@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40C4A66E28C088670051D2EC /* misaki_gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40C4A66D28C088190051D2EC /* misaki_gothic.ttf */; };
 		40DD21D228B0E93D009A4E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD21D128B0E93D009A4E03 /* AppDelegate.swift */; };
 		40DD21D428B0E93D009A4E03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD21D328B0E93D009A4E03 /* SceneDelegate.swift */; };
 		40DD21D628B0E93D009A4E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD21D528B0E93D009A4E03 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40C4A66D28C088190051D2EC /* misaki_gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = misaki_gothic.ttf; sourceTree = "<group>"; };
 		40DD21CE28B0E93D009A4E03 /* TechMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DD21D128B0E93D009A4E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40DD21D328B0E93D009A4E03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				40DD21E728B0EBAF009A4E03 /* ButtleViewController.swift */,
 				40DD21EA28B1CF33009A4E03 /* Character.swift */,
 				40DD21E928B1CF33009A4E03 /* TechMonManager.swift */,
+				40C4A66D28C088190051D2EC /* misaki_gothic.ttf */,
 				40DD21ED28B1D3FD009A4E03 /* Sounds */,
 			);
 			path = TechMon;
@@ -140,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C4A66E28C088670051D2EC /* misaki_gothic.ttf in Resources */,
 				40DD21DE28B0E93F009A4E03 /* LaunchScreen.storyboard in Resources */,
 				40DD21DB28B0E93F009A4E03 /* Assets.xcassets in Resources */,
 				40DD21EE28B1D3FD009A4E03 /* Sounds in Resources */,

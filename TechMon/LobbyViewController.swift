@@ -21,7 +21,7 @@ class LobbyViewController: UIViewController {
         super.viewDidLoad()
 
         nameLabel.text = "勇者"
-        staminaLabel.text = "\(stamina) / 勇者"
+        staminaLabel.text = "\(stamina) / 100"
         
         staminaTimer = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(updateStaminaValue), userInfo: nil, repeats: true)
         staminaTimer.fire()
